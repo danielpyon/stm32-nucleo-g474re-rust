@@ -1,0 +1,13 @@
+my board: nucleo-g474RE
+
+core: cortex m4
+FPU? yes
+flash / ram: 512 kb / 128 kb
+
+flash addr: 0x0800 0000
+ram addr:
+  - 80kb at 0x2000 0000 (SRAM1)
+  - 16kb at 0x2001 4000 (SRAM2)
+  - 32kb at 0x1000 0000 (CCM SRAM)
+
+
